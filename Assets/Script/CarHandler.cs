@@ -20,7 +20,7 @@ public class CarHandler : MonoBehaviour
     float steeringMultiplier = 5;
 
     //Input
-    Vector2 input = Vector2.zero;
+    Vector3 input = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -100,7 +100,7 @@ public class CarHandler : MonoBehaviour
         }
     }
 
-    public void SetInput(Vector2 inputVector)
+    public void SetInput(Vector3 inputVector)
     {
         inputVector.Normalize();
 

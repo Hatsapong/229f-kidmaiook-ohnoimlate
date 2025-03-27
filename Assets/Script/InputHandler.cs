@@ -10,15 +10,13 @@ public class InputHandler : MonoBehaviour
 
     void Update()
     {
-        Vector2 input = Vector2.zero;
+        Vector3 input = Vector3.zero;
         
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
         
         carHanler.SetInput(input);
 
-        if (Input.GetKeyDown(KeyCode.R))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
 
