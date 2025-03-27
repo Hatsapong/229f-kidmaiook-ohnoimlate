@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class InputHandler : MonoBehaviour
 {
     [SerializeField]
-    CarHanler carHanler;
+    CarHandler carHanler;
 
     void Update()
     {
