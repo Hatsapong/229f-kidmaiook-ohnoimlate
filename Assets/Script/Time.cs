@@ -6,6 +6,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public float countdownTime = 30f;
     public TextMeshProUGUI timerText; // ตัวแปรสำหรับ UI
+    
 
     void Update()
     {
