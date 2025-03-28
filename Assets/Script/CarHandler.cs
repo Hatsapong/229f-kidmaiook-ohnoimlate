@@ -49,9 +49,7 @@ public class CarHandler : MonoBehaviour
 
         Steer();
 
-        //Force the car not to go backwards
-        if (rb.velocity.z <= 0)
-            rb.velocity = Vector3.zero;
+       
     }
 
     void Accelerate()
