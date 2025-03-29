@@ -423,6 +423,7 @@ RectTransform:
   m_Children:
   - {fileID: 1990232959}
   - {fileID: 946897398}
+  - {fileID: 1088205240}
   m_Father: {fileID: 766474300}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -746,7 +747,7 @@ RectTransform:
   m_GameObject: {fileID: 766474299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19.520126, y: 10.667882, z: 5.9921913}
+  m_LocalScale: {x: 20.037409, y: 10.950581, z: 6.1509843}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 395916048}
@@ -756,7 +757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: 1}
+  m_AnchoredPosition: {x: -5, y: 5.5421}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766474301
@@ -831,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.4, y: -72.9}
+  m_AnchoredPosition: {x: -24.4, y: -74.79999}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &946897399
@@ -854,12 +855,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\t\t\tPresent \r\n\r\n\t\t  Group Kidmaiook\r\n    \r\n\t\t\tMember\r\n\r\n  
-    \t     Hatsapong Apichaikongwat\r\n\r\n   \t        Autsadawut Homkesorn\r\n\r\n  
-    \t           Phossawee Srisang\r\n\r\n\r\n\r\n\t\t\tCredit\r\n\r\n\r\nBy mena
-    : ARCADE: FREE Racing Car\r\n\r\nBy Azerilo : HD Low Poly Racing Car No.1201
-    \r\n\r\nBy 255 Pixel studios : Simple City pack plain\r\n\r\n\r\n\r\n\t\tThank
-    For playing!!\r\n "
+  m_text: "\t\t\tPresent \r\n\r\n\t    Group Kidmaiook (SEC 229F)\r\n    \r\n\t\t\tMember\r\n\r\n  
+    Hatsapong Apichaikongwat 1660703578 No. 12\n\n\t\t(Map design,Coding)\n\r\n\r\n\n    
+    Autsadawut Homkesorn 1660703610 No.13\n\n\t\t(Coding,Gamedesign)\n\n\n\r\n\r\n       
+    Phossawee Srisang 1660704758 No.20\n\n\t\t (Level design + UI) \r\n\r\n\r\n\r\n\t\t\t 
+    Credit\r\n\r\n\r\n      By mena : ARCADE: FREE Racing Car\r\n\r\n   By Azerilo
+    : HD Low Poly Racing Car No.1201 \r\n\r\n    By 255 Pixel studios : Simple City
+    pack plain\r\n\r\n\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t Thank For playing!!\r\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1040,6 +1042,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1088205239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088205240}
+  - component: {fileID: 1088205242}
+  - component: {fileID: 1088205241}
+  m_Layer: 5
+  m_Name: BU
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1088205240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088205239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.49667794, y: 0.3154199, z: 0.3154199}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 395916048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -229.7}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1088205241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088205239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cf6744cc7ec0a8a4b99aa8b670785778, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1088205242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088205239}
+  m_CullTransparentMesh: 1
 --- !u!1 &1195297597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.9, y: -61.399998}
+  m_AnchoredPosition: {x: -16.9, y: -63.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990232961
